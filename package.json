@@ -1,0 +1,19 @@
+{
+  "name": "meta-add-ig-v2",
+  "version": "2.0.0",
+  "description": "Full pipeline: link IG bait + Meta, RCV IG, kick/relink, 2FA, add hotmail",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js",
+    "run": "node run.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "imapflow": "^1.0.170",
+    "otpauth": "^9.3.5",
+    "mailparser": "^3.7.2"
+  }
+}
